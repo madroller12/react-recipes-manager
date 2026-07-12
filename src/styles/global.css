@@ -1,0 +1,128 @@
+body {
+  background-color: #f0f8ff;
+  color: #334155;
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+}
+
+.navbar { 
+  padding: 1rem 2rem; 
+  background-color: #e0f2fe;
+  border-bottom: 2px solid #bae6fd; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.nav-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #0369a1;
+}
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0284c7;
+    transition: color 0.2s;
+}
+.nav-link:hover {
+    color: #0369a1;
+}
+
+.main-content {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.recipe-card { 
+  background-color: white;
+  border: 1px solid #e2e8f0; 
+  border-radius: 8px; 
+  padding: 1.5rem; 
+  margin-bottom: 1rem; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.btn { 
+  display: inline-block;
+  padding: 0.6rem 1.2rem; 
+  cursor: pointer; 
+  border: none; 
+  border-radius: 6px; 
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  margin-right: 15px;
+}
+
+.btn:hover {
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 8px rgba(2, 132, 199, 0.2); 
+}
+
+.btn-primary {
+    background-color: #0284c7;
+    color: white; }
+.btn-primary:hover {
+    background-color: #0369a1;
+}
+
+.btn-secondary {
+    background-color: #cbd5e1;
+    color: #334155;
+}
+.btn-secondary:hover {
+    background-color: #94a3b8;
+    color: white;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #0284c7;
+    color: #0284c7;
+}
+.btn-outline:hover {
+    background-color: #e0f2fe;
+}
+
+.link-detail {
+    color: #0284c7;
+    text-decoration: none;
+    font-weight: 600; 
+}
+.link-detail:hover {
+    text-decoration: underline;
+    color: #0369a1;
+}
+
+.text-error {
+    color: #ef4444;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.form-container { 
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 15px; 
+  background: white;
+  padding: 2rem;
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+}
+.form-input { 
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cbd5e1; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none; 
+}
+.form-input:focus {
+    border-color: #0284c7;
+    box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.2);
+}
